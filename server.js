@@ -28,7 +28,7 @@ app.use(bodyParser.json());
 app.set('view engine', 'ejs');
 
 app.use(express.static(__dirname + '/public'));
-mongoose.connect("mongodb+srv://test:test123@cluster0-ptnjs.mongodb.net/urls?retryWrites=true&w=majority",{useCreateIndex:true,useNewUrlParser:true,useUnifiedTopology:true},()=>console.log("Mongo db connected"));
+mongoose.connect(""));
 app.get("/",(req,res)=>{
     res.render('pages/index',{error:null,miniUrl:""});
 });
