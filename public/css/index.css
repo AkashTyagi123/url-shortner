@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    padding: 5%;
+    
+    
+    
+    
+
+}
+
+
+
+input{
+    margin-top: 4%;
+    max-width: 50%;
+    margin-left: 25%;
+    
+   
+}
+.formrd{
+    max-width: 15%;
+    display: inline;
+}
+.formrde{
+    max-width: 35%;
+    display: inline;
+    margin-left: 0;
+}
+.error{
+    margin-left: 35%!important;
+}
+.btn{
+    margin-left: 43%;
+   
+   
+
+}
+
+
+
+
+                     
